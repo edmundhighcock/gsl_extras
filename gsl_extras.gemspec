@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "gsl_extras"
-  s.version = "0.3.1"
+  s.version = "0.4.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Edmund Highcock"]
-  s.date = "2012-10-06"
+  s.date = "2012-10-10"
   s.description = "A set of extensions and improvements to the Ruby GSL interface. Modifies some GSL objects to allow Marshalling, and provides some extra classes and functions."
   s.email = "edmundhighcock@sourceforge.net"
   s.extra_rdoc_files = [
@@ -33,6 +33,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/edmundhighcock/gsl_extras"
   s.licenses = ["GPLv3"]
   s.require_paths = ["lib"]
+  s.required_ruby_version = Gem::Requirement.new(">= 1.9.1")
   s.rubygems_version = "1.8.24"
   s.summary = "A set of extensions and improvements to the Ruby GSL interface."
 
