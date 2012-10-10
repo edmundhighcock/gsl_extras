@@ -21,6 +21,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{A set of extensions and improvements to the Ruby GSL interface. Modifies some GSL objects to allow Marshalling, and provides some extra classes and functions.}
   gem.email = "edmundhighcock@sourceforge.net"
   gem.authors = ["Edmund Highcock"]
+	gem.required_ruby_version = '>= 1.9.1'
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
